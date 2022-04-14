@@ -216,7 +216,6 @@ body {
 		display: grid;
 		place-items: center;
 		opacity: 1;
-		display: none;
 		transition: var(--transition-normal);
 		h4 {
 			font-size: 2rem;
@@ -409,7 +408,7 @@ body {
 				transform: translateY(450px) translateX(50px);
 			}
 			.box {
-				width: 70%;
+				width: 60%;
 				height: 1200px;
 				position: absolute;
 				background: var(--color-blue);
@@ -417,7 +416,7 @@ body {
 				left: 0px;
 			}
 			.box-two {
-				width: 75%;
+				width: 65%;
 				height: 700px;
 				position: absolute;
 				background: var(--color-lightblue);
@@ -453,10 +452,10 @@ body {
 					width: 30%;
 					position: absolute;
 					right: 20px;
-					transform: rotate(-35deg) translateX(80px) translateY(-100px);
+					transform: rotate(-35deg) translateX(70px) translateY(-100px);
 					&:last-child {
 						left: 20px;
-						transform: rotate(40deg) translateY(-25px);
+						transform: rotate(40deg) translateY(-15px);
 					}
 				}
 				background: var(--color-background);
