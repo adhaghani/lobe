@@ -1,0 +1,50 @@
+window.addEventListener("load", function() {
+setTimeout(() => {
+
+    first.style.display="grid";
+    first.classList.toggle("active");
+  
+  setTimeout(() => {
+    first.style.opacity="0";
+  }, 1500);
+}, 1);
+
+setTimeout(() => {
+  first.style.display="none";
+    second.style.display="grid";
+  
+    setTimeout(() => {
+      second.classList.toggle("active")
+    }, 500);
+  
+  setTimeout(() => {
+    second.style.opacity="0";
+  }, 2500);
+}, 2400);
+
+setTimeout(() => {
+  second.style.display="none";
+    third.style.display="grid";
+  
+    setTimeout(() => {
+      third.classList.toggle("active")
+    }, 500);
+  
+  setTimeout(() => {
+    third.style.opacity="0";
+  }, 3000);
+}, 6000);
+
+setTimeout(() => {
+    third.style.display = "none"
+    setTimeout(() => {
+      popup.style.opacity="0";
+
+      setTimeout(() => {
+        popup.style.display="none"
+      }, 401);
+    }, 400);
+}, 10000);
+
+
+})
